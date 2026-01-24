@@ -35,29 +35,26 @@ The challenge is to analyze historical employee data and:
 
 ## Project Structure
 
+```
 iabac-employee-performance-analysis/
-│
 ├── DATA/
-│ └── employee_dataset.csv
-│
+│   └── employee_dataset.csv
 ├── SRC/
-│ ├── data_processing/
-│ │ ├── data_processing.ipynb
-│ │ └── eda.ipynb
-│ │
-│ ├── models/
-│ │ ├── training.ipynb
-│ │ └── model.pkl
-│ │
-│ └── visualization/
-│ └── visualization.ipynb
-│
+│   ├── data_processing/
+│   │   ├── data_processing.ipynb
+│   │   └── eda.ipynb
+│   ├── models/
+│   │   ├── training.ipynb
+│   │   └── model.pkl
+│   └── visualization/
+│       └── visualization.ipynb
 ├── SUMMARY/
-│ └── summary_of_the_project.md
-│
+│   └── summary_of_the_project.md
 ├── README.md
 ├── LICENSE
 └── .gitignore
+```
+
 
 ---
 ## Data Preprocessing
